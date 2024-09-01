@@ -13,14 +13,14 @@
    
 <fieldset>
     <form>
- 
- <label id="name-label">Name<br><input type="text" id="name" placeholder="Enter name" required></label><br><br>
- <label id="email-label">Email<br><input type="email" placeholder="Enter email" required></input></label><br><br>
- <label id="age-label">Age(optional)<br><input type="number" id="age" placeholder="age" required></input></label>
+ <br>
+ <label id="name-label">Name<br><br><input type="text" id="name" placeholder="Enter name" required></label><br><br>
+ <label id="email-label">Email<br><br><input type="email" placeholder="Enter email" required></input></label><br><br>
+ <label id="age-label">Age(optional)<br><br><input type="number" id="age" placeholder="age" required></input></label>
  <br><br>
  <label>Which option is best</label>
 <br>
-
+<br>
  <select>
     <option value="opt1">option one</option>
     <option value="opt2">option two</option>
@@ -29,31 +29,31 @@
 
 <br><br>
 <label>Would you recommend it to a friend</label>
-<br>
-<input type="radio" name="choice" checked>Yes</input><br>
-<input type="radio" name="choice">No</input><br>
-<input type="radio" name="choice">Maybe</input><br>
 <br><br>
+<input type="radio" id="yes" class="inline" name="choice" checked>Yes</input><br>
+<input type="radio" id="no" class="inline" name="choice">No</input><br>
+<input type="radio" id="maybe" class="inline" name="choice">Maybe</input><br>
+<br>
 
-<label>Another drop down</label><br>
+<label>Another drop down</label><br><br>
 <select></select>
 
 <br><br>
 
-<label>What is your prefrence(check all that apply)</label><br>
-<input type="checkbox"></input><br>
-<input type="checkbox"></input><br>
-<input type="checkbox"></input><br>
-<input type="checkbox"></input><br>
-<input type="checkbox"></input><br>
+<label>What is your prefrence(check all that apply)</label><br><br>
+<input type="checkbox" class="inline">i prefer to do this</input><br>
+<input type="checkbox" class="inline">even this</input><br>
+<input type="checkbox" class="inline">Somethimes this</input><br>
+<input type="checkbox" class="inline">When i feel like this</input><br>
+<input type="checkbox" class="inline">Or even this</input><br>
 <br>
 <br>
 <label>Any comments or suggestions?</label>
-<br>
-<textarea row="50" col="5" placeholder="Enter comment...">
+<br><br>
+<textarea row="50" col="10" class="comment" placeholder="Enter comment...">
 
 </textarea>
-<br><br>
+<br><br><br>
 
 <input type="submit"></input>
 
